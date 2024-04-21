@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     apiSecret: "",
     public: {
       apiBase: "",
+      allowedOrigins: process.env.NUXT_ALLOWED_ORIGINS || "http://localhost:3000",
     },
   },
   colorMode: {

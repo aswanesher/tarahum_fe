@@ -63,6 +63,7 @@
         </div>
       </div>
     </section>
+    <PlaylistContent :playlist="ilmuDetails" />
   </div>
   <div v-else-if="error">Failed to load the ilmu: {{ error.message }}</div>
   <FooterContent />
